@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>League Boosting</title>
+
+<style>
+@keyframes mover {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+</style>
+
+</head>
+
+<body style="margin:0; font-family:Arial; color:white;
+background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+url('https://wallpapercave.com/wp/wp8766127.jpg');
+background-size:cover;
+background-attachment:fixed;">
+
+<!-- Banner -->
+<div style="background:#FFD700; color:black; overflow:hidden; white-space:nowrap;">
+  <p style="display:inline-block; padding:10px; font-weight:bold; animation:mover 15s linear infinite;">
+    🔥 100% Win Rate | Seguridad Garantizada | 20% OFF con código creador 🔥
+  </p>
+</div>
+
+<h1 style="text-align:center; font-size:50px; color:#FFD700; text-shadow:2px 2px 8px black;">
+League of Legends Division Boost
+</h1>
+
+<div style="text-align:center; padding:30px;">
+<p>Subimos tu cuenta al rango deseado de forma rápida y segura.</p>
+
+<img src="https://kboosting.com/img/11957/c/lol-elo-boosting-500x500.png"
+style="width:300px; transition:0.4s;"
+onmouseover="this.style.transform='scale(1.1)'"
+onmouseout="this.style.transform='scale(1)'">
+
+<br><br>
+
+<a href="https://youtu.be/DLzxrzFCyOs?si=gi1WnNpgIuVGjeBA"
+target="_blank"
+style="padding:15px 30px; background:#FFD700; color:black;
+text-decoration:none; font-weight:bold; border-radius:30px;
+transition:0.3s;"
+onmouseover="this.style.background='#ffae00'; this.style.transform='scale(1.1)'"
+onmouseout="this.style.background='#FFD700'; this.style.transform='scale(1)'">
+Comprar Ahora
+</a>
+
+</div>
+
+<!-- Tabla -->
+<h2 style="text-align:center; color:#FFD700;">Tabla de Precios</h2>
+
+<table border="1" style="margin:auto; width:80%; max-width:700px;
+background:rgba(255,255,255,0.1); text-align:center; font-size:18px;">
+
+<tr style="background:#FFD700; color:black;">
+<th>Rango</th>
+<th>Precio</th>
+<th>Tiempo</th>
+</tr>
+
+<tr><td>Bronce</td><td>$10</td><td>1 día</td></tr>
+<tr><td>Plata</td><td>$20</td><td>1 día</td></tr>
+<tr><td>Oro</td><td>$30</td><td>2 días</td></tr>
+<tr><td>Platino</td><td>$40</td><td>2 días</td></tr>
+<tr><td>Esmeralda</td><td>$60</td><td>2 días</td></tr>
+<tr><td>Diamante</td><td>$80</td><td>3 días</td></tr>
+<tr><td>Maestro</td><td>$100</td><td>3 días</td></tr>
+<tr><td>Gran Maestro</td><td>$200</td><td>4 días</td></tr>
+<tr><td>Challenger</td><td>$300</td><td>7 días</td></tr>
+
+</table>
+
+<br><br>
+
+<!-- Calculadora -->
+<div style="text-align:center;">
+<h2 style="color:#FFD700;">Calcula tu Boost</h2>
+
+<select id="rango" style="padding:10px; font-size:16px;">
+<option value="10">Bronce</option>
+<option value="20">Plata</option>
+<option value="30">Oro</option>
+<option value="40">Platino</option>
+<option value="60">Esmeralda</option>
+<option value="80">Diamante</option>
+<option value="100">Maestro</option>
+<option value="200">Gran Maestro</option>
+<option value="300">Challenger</option>
+</select>
+
+<h3 id="precio" style="margin-top:15px;">Precio: $10</h3>
+</div>
+
+<!-- Reseñas -->
+<div style="text-align:center; padding:40px;">
+<h2 style="color:#FFD700;">Reseñas</h2>
+
+<div style="background:rgba(255,255,255,0.1); padding:20px; margin:20px auto; max-width:500px;">
+⭐⭐⭐⭐⭐ <br>
+"Subieron mi cuenta a Diamante en 3 días. Servicio increíble."
+</div>
+
+<div style="background:rgba(255,255,255,0.1); padding:20px; margin:20px auto; max-width:500px;">
+⭐⭐⭐⭐⭐ <br>
+"100% recomendado, muy profesionales."
+</div>
+</div>
+
+<!-- Música -->
+<div style="text-align:center; padding:30px;">
+<h2 style="color:#FFD700;">Música para Grindear</h2>
+
+<iframe style="border-radius:12px"
+src="https://open.spotify.com/embed/track/4LhgwcTWwJQc6DFTkLXVEc"
+width="100%" height="352" frameborder="0"></iframe>
+
+</div>
+
+<script>
+document.getElementById("rango").addEventListener("change", function(){
+  document.getElementById("precio").innerHTML = "Precio: $" + this.value;
+});
+</script>
+
+</body>
+</html>
